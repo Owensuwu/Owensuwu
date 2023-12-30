@@ -1,0 +1,88 @@
+import matplotlib.pyplot as plt
+import numpy as np
+from PIL import Image
+
+def get_geological_layers():
+    layers = []
+    while True:
+        thickness_str = input("Enter thickness of the layer (in meters, 'q' to quit): ")
+        if thickness_str.lower() == 'q':
+            break
+
+        age_str = input("Enter age of the layer (in Ma): ")
+
+        try:
+            thickness = float(thickness_str)
+            age = float(age_str)
+        except ValueError:
+            print("Invalid input. Please enter numeric values.")
+            continue
+
+        layers.append({'thickness': thickness, 'age': age})
+
+    return layers
+
+def plot_stratigraphic_column(layers):
+    fig, ax = plt.subplots(figsize=(6, 10))
+
+    colors = plt.cm.viridis(np.linspace(0, 1, len(layers)))
+    bottom = 0
+
+    for layer, color in zip(layers, colors):
+        thickness = layer['thickness']
+        age = layer['age']
+
+        rect = plt.Rectangle((0, bottom), 1, thickness, linewidth=1, edgecolor='black', facecolor=color)
+        ax.add_patch(rect)
+
+        # Add age label
+        ax.text(1.1, bottom + thickness / 2, f"{age} Ma", va='center')
+
+        bottom += thickness
+
+    ax.set_xlim(0, 2)
+    ax.set_ylim(0, bottom + 1)
+    ax.axis('off')
+
+    plt.title("Stratigraphic Column")
+    plt.show()
+
+def save_stratigraphic_column(layers, filename="stratigraphic_column.png"):
+    fig, ax = plt.subplots(figsize=(6, 10))
+
+    colors = plt.cm.viridis(np.linspace(0, 1, len(layers)))
+    bottom = 0
+
+    for layer, color in zip(layers, colors):
+        thickness = layer['thickness']
+        age = layer['age']
+
+        rect = plt.Rectangle((0, bottom), 1, thickness, linewidth=1, edgecolor='black', facecolor=color)
+        ax.add_patch(rect)
+
+        # Add age label
+        ax.text(1.1, bottom + thickness / 2, f"{age} Ma", va='center')
+
+        bottom += thickness
+
+    ax.set_xlim(0, 2)
+    ax.set_ylim(0, bottom + 1)
+    ax.axis('off')
+
+    plt.title("Stratigraphic Column")
+    plt.savefig(filename)
+    plt.close()
+
+def main():
+    print("Welcome to the Stratigraphic Column Generator!")
+    layers = get_geological_layers()
+    plot_stratigraphic_column(layers)
+
+    save_option = input("Do you want to save the stratigraphic column? (yes/no): ").lower()
+    if save_option == 'yes':
+        filename = input("Enter the filename (default is 'stratigraphic_column.png'): ").strip() or 'stratigraphic_column.png'
+        save_stratigraphic_column(layers, filename)
+        print(f"Stratigraphic column saved as {filename}.")
+
+if __name__ == "__main__":
+    main()
