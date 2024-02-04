@@ -21,11 +21,6 @@
 - 👬 Open to collaborating on projects that integrate geology with technology.
 - 🤝 Excited about contributing to open-source projects related to Linux and geoscience.
 
-### How to Reach Me
-- 📫 Connect with me on [LinkedIn](your-linkedin-profile)
-- 🐦 Follow me on Twitter: [@your_twitter_handle]
-- 📧 Email me at your.email@example.com
-
 ### Fun Fact
 - 🕎 Proudly embracing my Jewish heritage! שלום חבר!
 
