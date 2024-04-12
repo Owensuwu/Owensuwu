@@ -21,9 +21,6 @@
 - 👬 Open to collaborating on projects that integrate geology with technology.
 - 🤝 Excited about contributing to open-source projects related to Linux and geoscience.
 
-### Fun Fact
-- 🕎 Proudly embracing my Jewish heritage! שלום חבר!
-
 Let's code the Earth into a better place! 🌐✨
 
 
