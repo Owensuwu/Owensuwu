@@ -4,7 +4,7 @@
 - 🏞️ I'm a geology student passionate about unraveling the Earth's mysteries.
 - 💻 Coding is my second love; I spend my free time exploring the realms of programming.
 - 🌐 I aspire to bridge the gap between geology and technology, applying code to unearth geological insights.
-- 🐧 Proud Arch Linux user, because I believe in rolling releases and the power of customization.
+- 🐧 Proud Deepim Linux user.
 - 🕊️ Advocating for open source, I'm an active member of the Linux and free software community.
 
 ### Interests
