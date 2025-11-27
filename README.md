@@ -1,30 +1,35 @@
-# Shalom! 👋 I'm Owens, a Geology Student and Linux Enthusiast 🌍🐧
+# 👋 Hi, I'm Owens — Geology Student & Linux Enthusiast 🌍🐧
 
-### About Me
-- 🏞️ I'm a geology student passionate about unraveling the Earth's mysteries.
-- 💻 Coding is my second love; I spend my free time exploring the realms of programming.
-- 🌐 I aspire to bridge the gap between geology and technology, applying code to unearth geological insights.
-- 🐧 Proud Deepim Linux user.
-- 🕊️ Advocating for open source, I'm an active member of the Linux and free software community.
+### 🌎 About Me
+I'm a geology student passionate about understanding the Earth's processes and exploring how technology can enhance geoscience.  
+Alongside my studies, I enjoy programming, Linux customization, and building tools that make scientific workflows more efficient.
 
-### Interests
-- 🚀 Exploring the intersection of geology and coding.
-- 🖥️ Enhancing my Linux skills and contributing to the open-source community.
-- 🌱 Learning new programming languages and tools to expand my toolkit.
+### 💡 What I Do
+- 🏞️ Apply programming to solve geological and geospatial problems  
+- 💻 Build small scripts, tools, and visualizations for learning and research  
+- 🐧 Daily Linux user (Deepin) and open-source advocate  
+- 🔧 Interested in reproducible workflows and automation  
 
-### Currently Learning
-- 🌐 Web development to create interactive geological visualizations.
-- 🐍 Python for data analysis and geospatial applications.
-- 🐚 Shell scripting to automate geoscience workflows.
+### 🔥 Interests
+- 🌐 Geoscience + Computing  
+- 🐍 Python for scientific computing, GIS, and data analysis  
+- 🖥️ Linux systems, shell scripting, and open-source ecosystems  
+- 🌱 Learning modern web technologies to create interactive visualizations  
 
-### Collaboration
-- 👬 Open to collaborating on projects that integrate geology with technology.
-- 🤝 Excited about contributing to open-source projects related to Linux and geoscience.
+### 📚 Currently Learning
+- Python for geospatial analysis (NumPy, Pandas, GeoPandas)  
+- Web development for scientific interfaces (HTML/CSS/JS)  
+- Bash/Shell scripting for automating geoscience tasks  
 
-Let's code the Earth into a better place! 🌐✨
+### 🤝 Collaboration
+I'm open to collaborating on:
+- Geoscience-related tools or visualizations  
+- Linux or open-source projects  
+- Educational resources for geology or computing  
 
+### ✨ Personal Goal
+To bridge geology and technology by creating tools, simulations, and workflows that make geoscience more accessible and computationally powerful.
 
-<!---
-Owensuwu/Owensuwu is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+---
+
+⭐ *Thanks for visiting my profile!*  
